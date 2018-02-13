@@ -1,49 +1,5 @@
 {
-  "docsets_to_publish": [
-    {
-      "docset_name": "E2E_Dotnet_2018_2_11_11_21_2",
-      "build_source_folder": "E2E_Dotnet_2018_2_11_11_21_2",
-      "build_output_subfolder": "E2E_Dotnet_2018_2_11_11_21_2",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "base_path": "E2E_Dotnet_2018_2_11_11_21_2",
-      "site_name": "Docs",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
-      "customized_tasks": {
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ],
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ]
-      },
-      "ECMA2Yaml": {
-        "SourceXmlFolder": "E2E_Dotnet_2018_2_11_11_21_2/xml",
-        "OutputYamlFolder": "E2E_Dotnet_2018_2_11_11_21_2/api",
-        "Flatten": true,
-        "id": "E2E_Dotnet_2018_2_11_11_21_2"
-      },
-      "SplitTOC": [
-        "E2E_Dotnet_2018_2_11_11_21_2/api/E2E_Dotnet_2018_2_11_11_21_2/toc.yml"
-      ],
-      "DiffFolder": [
-        "E2E_Dotnet_2018_2_11_11_21_2/api"
-      ]
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
